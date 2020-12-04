@@ -62,7 +62,7 @@ LIMIT 3;
 -- END Q7
 
 
--- START Q8 **FIX
+-- START Q8 
 SELECT companyname, COUNT(*), (SELECT COUNT(*)
 							   FROM orders o
 							   WHERE shippeddate<requireddate
